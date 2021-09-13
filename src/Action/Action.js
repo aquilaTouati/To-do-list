@@ -3,8 +3,8 @@ export const add = (data) => ({
   payload: data,
 });
 
-export const supprimer = (data) => ({
-  type: "SUPPRIMER",
+export const remove = (data) => ({
+  type: "REMOVE",
   payload: data,
 });
 

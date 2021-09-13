@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
-import { add, supprimer, done } from "./Action/Action";
+import { add, remove, done } from "./Action/Action";
 import { nanoid } from "nanoid";
 import { useState } from "react";
 
@@ -36,10 +36,10 @@ function App() {
             </li>
             <button
               onClick={() => {
-                dispatch(supprimer(value.id));
+                dispatch(remove(value.id));
               }}
             >
-              SUPPRIMER
+              Remove
             </button>
             <button
               onClick={() => {
