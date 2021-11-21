@@ -205,7 +205,7 @@ function Home() {
 }
 
 //   const list = useSelector((state) => state.list);
-//   const dispatch = useDispatch();
+//   const dispatch = useDispatch(); USEDISP
 //   const [inputValue, setInputValue] = useState();
 //   return (
 //     <div>
